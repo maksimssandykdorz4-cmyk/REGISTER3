@@ -1,5 +1,5 @@
 import { prisma } from '../../lib/prisma'
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 import { generateToken } from '../../utils/generateToken'
 
 const register = async (req: any, res: any) => {
